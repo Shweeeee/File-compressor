@@ -63,7 +63,7 @@ def HuffmanEncoding(the_data):
 
     return encodedData, huffmanNodeList[0]
 
-# Decodes the string based using the huffman Tree
+# Decodes the string using the huffman Tree
 
 def HuffmanDecoding(input, huffmanTree):  
     encodedData=input
